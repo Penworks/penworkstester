@@ -1,0 +1,15 @@
+Last login: Sat Jan  3 13:31:19 on ttys000
+ML140504:~ listerp$ git init
+Initialized empty Git repository in /Users/listerp/.git/
+ML140504:~ listerp$ defaults write com.apple.finder AppleShowAllFiles YES
+ML140504:~ listerp$ cd /Users/listerp/REPOS/penworkstester 
+ML140504:penworkstester listerp$ git push origin master
+ERROR: Repository not found.
+fatal: Could not read from remote repository.
+
+Please make sure you have the correct access rights
+and the repository exists.
+ML140504:penworkstester listerp$ git remote -v
+origin	git@github.com:Penworks.penworkstester.git (fetch)
+origin	git@github.com:Penworks.penworkstester.git (push)
+ML140504:penworkstester listerp$ 
